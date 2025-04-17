@@ -1,0 +1,17 @@
+Quiz: Introduction to Variables
+
+1. What is a variable in programming?
+    a) A fixed number
+    b) A container for data
+    c) A loop
+    d) A function
+
+2. What is the correct syntax to declare a variable in C#?
+    a) var age;
+    b) int = age;
+    c) int age = 30;
+    d) age int = 30;
+
+Answer Key:
+1. b
+2. c
