@@ -1,8 +1,29 @@
-Lesson Title: Introduction to Variables
+Lesson 1: Introduction to C#
 
-In programming, a variable is a container for storing data values.
-For example:
-    int age = 25;
-    string name = "Alice";
+C# (pronounced "C-sharp") is a modern, object-oriented programming language developed by Microsoft. 
+It is designed to be simple, powerful, and type-safe. C# is primarily used for building Windows desktop applications, 
+web apps, cloud-based services, and games using the Unity engine.
 
-Variables help you reuse and update values throughout your code.
+Key Features of C#:
+- Object-oriented programming (OOP)
+- Strong type checking
+- Automatic garbage collection
+- Rich standard library
+- Support for asynchronous programming
+
+Example Code:
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+This code prints 'Hello, World!' to the console — a classic beginner's program in most languages.
+
+C# runs on the .NET platform and is widely used in enterprise and desktop software development.
