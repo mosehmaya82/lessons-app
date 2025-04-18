@@ -28,7 +28,7 @@ This line returns a string, which your app will show in the output box.
 In a full C# application, you'd write:
 
 ```cs
-Console.WriteLine("Hello, World!");
+"Hello World"
 ```
 
 However, this would not produce a result in this app because `Console.WriteLine` returns `void`.
