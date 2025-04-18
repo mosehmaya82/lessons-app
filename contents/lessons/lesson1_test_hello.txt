@@ -1,0 +1,19 @@
+Lesson 1: Hello World (Roslyn Test)
+
+This is your first lesson using Roslyn scripting.
+
+The following line of code returns a string value and will trigger the ▶️ Run Example button.
+
+Try running the example below:
+
+```cs
+"Hello from Roslyn!"
+```
+
+When you click the ▶️ Run Example button, the result should appear in the output box below the lesson.
+
+---
+
+✅ This expression works because it evaluates to a string value — no methods, no voids, no syntax issues.
+
+Later, we’ll move on to variables, functions, and more advanced snippets.
