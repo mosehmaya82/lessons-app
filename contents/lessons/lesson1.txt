@@ -15,7 +15,26 @@ Key Features of C#:
 
 ## Example Code
 
-The line below returns the string `"Hello, World!"`, just like what you'd print in a console application.
+Click the ▶️ Run Example button below to evaluate this line of code:
 
 ```cs
 "Hello, World!"
+```
+
+This line returns a string, which your app will show in the output box.
+
+---
+
+In a full C# application, you'd write:
+
+```cs
+Console.WriteLine("Hello, World!");
+```
+
+However, this would not produce a result in this app because `Console.WriteLine` returns `void`.
+
+Instead, we use expressions that return values, like `"Hello, World!"`.
+
+---
+
+C# runs on the .NET platform and is widely used in enterprise and desktop software development.
