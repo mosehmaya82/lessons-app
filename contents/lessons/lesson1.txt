@@ -11,19 +11,11 @@ Key Features of C#:
 - Rich standard library
 - Support for asynchronous programming
 
-Example Code:
-```csharp
-using System;
+---
 
-class Program
-{
-    static void Main()
-    {
-        Console.WriteLine("Hello, World!");
-    }
-}
-```
+## Example Code
 
-This code prints 'Hello, World!' to the console — a classic beginner's program in most languages.
+The line below returns the string `"Hello, World!"`, just like what you'd print in a console application.
 
-C# runs on the .NET platform and is widely used in enterprise and desktop software development.
+```cs
+"Hello, World!"
