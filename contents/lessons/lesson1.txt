@@ -1,0 +1,63 @@
+Lesson: What is C#
+
+C# (pronounced "C-sharp") is a modern, object-oriented programming language developed by Microsoft.
+It was designed for building a variety of applications that run on the .NET Framework and .NET Core (now .NET 5/6/7/8).
+
+---
+
+## 🧠 Key Features of C#
+
+- Simple and powerful syntax  
+- Object-Oriented Programming (OOP)  
+- Strong type safety and memory management  
+- Built-in support for asynchronous programming  
+- Extensive .NET library ecosystem  
+
+C# is widely used for:
+
+- Windows desktop applications  
+- Web applications and APIs  
+- Game development (with Unity)  
+- Cloud services and enterprise software  
+
+---
+
+## 🧪 Try it out
+
+Let’s test a basic example that returns a message:
+
+```cs
+var greeting = "C# is awesome!";
+greeting
+```
+
+Click ▶️ Run Example to see the output.
+
+---
+
+## 💻 What this would look like in a real C# application
+
+Here’s how the same concept would look in a full C# console app:
+
+```cs
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        var greeting = "C# is awesome!";
+        Console.WriteLine(greeting);
+    }
+}
+```
+
+This program defines a `Main` method, declares a variable, and prints it using `Console.WriteLine`.
+
+---
+
+🎯 Summary:
+
+C# is a beginner-friendly but professional-grade language. It’s used by companies and developers worldwide to build everything from desktop apps to massive cloud platforms.
+
+Let’s continue to variables and data types in the next lesson!
