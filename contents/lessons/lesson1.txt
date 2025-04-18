@@ -8,10 +8,6 @@ This environment runs small C# code snippets and shows their output immediately.
 
 ## 👋 Hello World
 
-Let's start with the most basic and classic example:
-
-## 👋 Hello World
-
 Here's a simple snippet that returns a message:
 
 ```cs
@@ -27,7 +23,7 @@ Click the ▶️ Run Example button to evaluate the code and see the output belo
 
 In this learning app, we evaluate *expressions* that return values.
 
-This code returns a string — `"Hello, World!"` — which is captured and shown in the output box.
+This code stores a string in a variable `msg`, and then returns `msg`, which becomes the output.
 
 ---
 
