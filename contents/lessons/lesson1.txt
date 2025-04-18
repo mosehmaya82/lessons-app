@@ -1,42 +1,26 @@
-Lesson 1: Hello World in C# (Roslyn Scripting)
+using System;
+using System.Threading.Tasks;
+using Microsoft.CodeAnalysis.CSharp.Scripting;
+using Microsoft.CodeAnalysis.Scripting;
 
-Welcome to your first C# lesson using Roslyn scripting!
+class Program
+{
+    static async Task Main()
+    {
+        var code = @"var msg = ""Hello, World!""; msg";
 
-This environment runs small C# code snippets and shows their output immediately.
+        var options = ScriptOptions.Default
+            .WithImports("System")
+            .WithReferences(typeof(string).Assembly);
 
----
-
-## 👋 Hello World
-
-Here's a simple snippet that returns a message:
-
-```cs
-var msg = "Hello, World!";
-msg
-```
-
-Click the ▶️ Run Example button to evaluate the code and see the output below.
-
----
-
-## ℹ️ Why it works
-
-In this learning app, we evaluate *expressions* that return values.
-
-This code stores a string in a variable `msg`, and then returns `msg`, which becomes the output.
-
----
-
-## 🚫 What doesn’t work (yet)
-
-```cs
-Console.WriteLine("Hello, World!");
-```
-
-This code prints to the console but returns nothing (`void`), so we can’t capture its output here — yet!
-
-Later, we’ll show you how to work with output redirection or more advanced evaluations.
-
----
-
-You're doing great! Let's move on to variables and data types next.
+        try
+        {
+            var result = await CSharpScript.EvaluateAsync(code, options);
+            Console.WriteLine("✅ Result: " + result);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("❌ Error: " + ex.Message);
+        }
+    }
+}
