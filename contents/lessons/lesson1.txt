@@ -10,8 +10,13 @@ This environment runs small C# code snippets and shows their output immediately.
 
 Let's start with the most basic and classic example:
 
+## 👋 Hello World
+
+Here's a simple snippet that returns a message:
+
 ```cs
-"Hello, World!"
+var msg = "Hello, World!";
+msg
 ```
 
 Click the ▶️ Run Example button to evaluate the code and see the output below.
