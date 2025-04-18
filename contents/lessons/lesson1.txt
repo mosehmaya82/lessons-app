@@ -1,40 +1,41 @@
-Lesson 1: Introduction to C#
+Lesson 1: Hello World in C# (Roslyn Scripting)
 
-C# (pronounced "C-sharp") is a modern, object-oriented programming language developed by Microsoft. 
-It is designed to be simple, powerful, and type-safe. C# is primarily used for building Windows desktop applications, 
-web apps, cloud-based services, and games using the Unity engine.
+Welcome to your first C# lesson using Roslyn scripting!
 
-Key Features of C#:
-- Object-oriented programming (OOP)
-- Strong type checking
-- Automatic garbage collection
-- Rich standard library
-- Support for asynchronous programming
+This environment runs small C# code snippets and shows their output immediately.
 
 ---
 
-## Example Code
+## 👋 Hello World
 
-Click the ▶️ Run Example button below to evaluate this line of code:
+Let's start with the most basic and classic example:
 
 ```cs
 "Hello, World!"
 ```
 
-This line returns a string, which your app will show in the output box.
+Click the ▶️ Run Example button to evaluate the code and see the output below.
 
 ---
 
-In a full C# application, you'd write:
+## ℹ️ Why it works
+
+In this learning app, we evaluate *expressions* that return values.
+
+This code returns a string — `"Hello, World!"` — which is captured and shown in the output box.
+
+---
+
+## 🚫 What doesn’t work (yet)
 
 ```cs
-"Hello World";
+Console.WriteLine("Hello, World!");
 ```
 
-However, this would not produce a result in this app because `Console.WriteLine` returns `void`.
+This code prints to the console but returns nothing (`void`), so we can’t capture its output here — yet!
 
-Instead, we use expressions that return values, like `"Hello, World!"`.
+Later, we’ll show you how to work with output redirection or more advanced evaluations.
 
 ---
 
-C# runs on the .NET platform and is widely used in enterprise and desktop software development.
+You're doing great! Let's move on to variables and data types next.
