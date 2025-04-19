@@ -16,4 +16,5 @@ string name = "Alice";
 bool isStudent = true;
 double height = 1.75;
 
+// Return a descriptive sentence using string interpolation
 $"{name} is {age} years old, {height}m tall. Student: {isStudent}"
