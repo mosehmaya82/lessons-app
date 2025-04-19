@@ -1,0 +1,59 @@
+Lesson: What is Python
+
+Python is a popular, high-level programming language known for its simplicity and readability.
+It was created by Guido van Rossum and is widely used for scripting, automation, data science, web development, and more.
+
+---
+
+## 🧠 Key Features of Python
+
+- Easy-to-read syntax and minimal boilerplate  
+- Dynamic typing  
+- Interpreted (no compilation required)  
+- Extensive standard library and third-party packages  
+- Cross-platform and beginner-friendly  
+
+Python is commonly used for:
+
+- Web development (e.g., Django, Flask)  
+- Data analysis and machine learning (e.g., Pandas, scikit-learn, TensorFlow)  
+- Automation and scripting  
+- Desktop and mobile applications  
+- Scientific computing and education  
+
+---
+
+## 🧪 Try it out
+
+Let’s test a basic example that returns a message:
+
+```py
+greeting = "Python is awesome!"
+greeting
+```
+
+Click ▶️ Run Example to see the output.
+
+---
+
+## 💻 What this would look like in a real Python script
+
+Here’s how the same concept would look in a full Python program:
+
+```py
+def main():
+    greeting = "Python is awesome!"
+    print(greeting)
+
+main()
+```
+
+This script defines a `main()` function, assigns a value to `greeting`, and prints it using `print()`.
+
+---
+
+🎯 Summary:
+
+Python is beginner-friendly, versatile, and powerful. It's used by individuals and companies around the world to build everything from small scripts to large-scale systems.
+
+Let’s continue to variables and data types in the next lesson!
