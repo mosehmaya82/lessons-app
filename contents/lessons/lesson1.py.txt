@@ -28,8 +28,11 @@ Python is commonly used for:
 Let’s test a basic example that returns a message:
 
 ```py
-greeting = "Python is awesome!"
-greeting
+def main():
+    greeting = "Python is awesome!"
+    print(greeting)
+
+main()
 ```
 
 Click ▶️ Run Example to see the output.
