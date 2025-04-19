@@ -2,21 +2,15 @@ Lesson: Variables and Data Types in C#
 
 In this lesson, we’ll explore how to declare and use variables in C#.
 
----
-
-## 📦 What are variables?
-
 Variables are used to store information. In C#, you must declare a **type** when creating a variable.
 
-Example types:
+Common types:
 - `int` – whole numbers
 - `double` – decimal numbers
 - `string` – text
 - `bool` – true/false
 
----
-
-## 💡 Example
+Let’s look at an example:
 
 ```cs
 int age = 25;
@@ -24,8 +18,11 @@ string name = "Maria";
 bool isStudent = true;
 double height = 1.68;
 
-// Return a summary of all variable values
-"Name: " + name + 
-"\nAge: " + age + 
-"\nHeight: " + height + 
+// Return all variable values in a single string
+"Name: " + name +
+"\nAge: " + age +
+"\nHeight: " + height +
 "\nIs Student: " + isStudent
+```
+
+When you press ▶️ Run Example, the output box will show all values.
