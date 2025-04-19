@@ -10,7 +10,7 @@ Common data types:
 - `bool`: True or false
 - `double`: Decimal numbers
 
-Let's look at an example:
+Here’s an example that declares and prints several variables:
 
 ```cs
 int age = 30;
@@ -18,5 +18,10 @@ string name = "Alice";
 bool isStudent = true;
 double height = 1.75;
 
-// This string will be returned and shown in the app
-$"{name} is {age} years old, {height}m tall. Student: {isStudent}"
+// Return a multi-line string showing all variable values
+$"""
+Name: {name}
+Age: {age}
+Height: {height}
+Is Student: {isStudent}
+"""
