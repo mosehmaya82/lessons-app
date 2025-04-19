@@ -1,23 +1,31 @@
-# Lesson 2: Variables and Data Types in C#
+Lesson: Variables and Data Types in C#
 
-In this lesson, you'll learn about variables and the most common data types in C#.
+In this lesson, we’ll explore how to declare and use variables in C#.
 
-A **variable** is a named container used to store data. In C#, you must declare a variable's type before assigning a value to it.
+---
 
-Common data types:
-- `int`: Integer numbers
-- `string`: Text
-- `bool`: True or false
-- `double`: Decimal numbers
+## 📦 What are variables?
+
+Variables are used to store information. In C#, you must declare a **type** when creating a variable.
+
+Example types:
+- `int` – whole numbers
+- `double` – decimal numbers
+- `string` – text
+- `bool` – true/false
+
+---
+
+## 💡 Example
 
 ```cs
-int age = 30;
-string name = "Alice";
+int age = 25;
+string name = "Maria";
 bool isStudent = true;
-double height = 1.75;
+double height = 1.68;
 
-// Return all variable values as a formatted string
-"Name: " + name +
-"\nAge: " + age +
-"\nHeight: " + height +
+// Return a summary of all variable values
+"Name: " + name + 
+"\nAge: " + age + 
+"\nHeight: " + height + 
 "\nIs Student: " + isStudent
