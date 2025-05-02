@@ -1,62 +1,63 @@
-Lesson: What is Python
+שיעור: מה זה פייתון
 
-Python is a popular, high-level programming language known for its simplicity and readability.
-It was created by Guido van Rossum and is widely used for scripting, automation, data science, web development, and more.
-
----
-
-## 🧠 Key Features of Python
-
-- Easy-to-read syntax and minimal boilerplate  
-- Dynamic typing  
-- Interpreted (no compilation required)  
-- Extensive standard library and third-party packages  
-- Cross-platform and beginner-friendly  
-
-Python is commonly used for:
-
-- Web development (e.g., Django, Flask)  
-- Data analysis and machine learning (e.g., Pandas, scikit-learn, TensorFlow)  
-- Automation and scripting  
-- Desktop and mobile applications  
-- Scientific computing and education  
+פייתון היא שפת תכנות פופולרית ורמת-על, הידועה בפשטות ובקריאות שלה.  
+היא נוצרה על ידי גידו ואן רוסום ונמצאת בשימוש נרחב לכתיבת סקריפטים, אוטומציה, מדעי נתונים, פיתוח אתרים ועוד.
 
 ---
 
-## 🧪 Try it out
+## 🧠 תכונות עיקריות של פייתון
 
-Let’s test a basic example that returns a message:
+- תחביר קל לקריאה ולמידה, כמעט ללא קוד מיותר  
+- טיפוס דינמי  
+- שפה מתורגמת (אין צורך בקומפילציה)  
+- ספריית סטנדרט רחבה + מאות אלפי חבילות צד שלישי  
+- חוצה פלטפורמות ומתאימה למתחילים  
+
+פייתון נמצאת בשימוש עבור:
+
+- פיתוח אתרים (למשל Django, Flask)  
+- ניתוח נתונים ולמידת מכונה (למשל Pandas, scikit-learn, TensorFlow)  
+- אוטומציה וכתיבת סקריפטים  
+- יישומי שולחן עבודה וניידים  
+- חישובים מדעיים וחינוך  
+
+---
+
+## 🧪 נסה זאת
+
+בוא נבחן דוגמה בסיסית שמדפיסה הודעה:
 
 ```py
 def main():
-    greeting = "Python is awesome!"
+    greeting = "פייתון מדהימה!"
     print(greeting)
 
 main()
 ```
 
-Click ▶️ Run Example to see the output.
+לחץ ▶️ הפעל דוגמה כדי לראות את הפלט.
 
 ---
 
-## 💻 What this would look like in a real Python script
+## 💻 איך זה נראה בסקריפט אמיתי
 
-Here’s how the same concept would look in a full Python program:
+כך תיראה אותה דוגמה כחלק מתוכנית פייתון מלאה:
 
 ```py
 def main():
-    greeting = "Python is awesome!"
+    greeting = "פייתון מדהימה!"
     print(greeting)
 
 main()
 ```
 
-This script defines a `main()` function, assigns a value to `greeting`, and prints it using `print()`.
+הקוד מגדיר את הפונקציה `main()`, שומר מחרוזת במשתנה `greeting`, ומדפיס אותה בעזרת `print()`.
 
 ---
 
-🎯 Summary:
+🎯 סיכום:
 
-Python is beginner-friendly, versatile, and powerful. It's used by individuals and companies around the world to build everything from small scripts to large-scale systems.
+פייתון היא שפה ידידותית למתחילים, רב-שימושית ועוצמתית.  
+היא נמצאת בשימוש ברחבי העולם לבניית כל דבר — מסקריפטים קטנים ועד מערכות ענק.
 
-Let’s continue to variables and data types in the next lesson!
+בוא נמשיך לשיעור הבא: משתנים וסוגי נתונים!
